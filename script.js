@@ -1,16 +1,20 @@
 let count = 0
+let incrimentEL = document.getElementById("Count")
+let decrimentEL = document.getElementById("Count")
+let SaveEL = document.getElementById("save")
 function increment() {
     count += 1
-    document.getElementById("student-cnt").innerHTML = count
+    incrimentEL.textContent = count
 }
 
 function decrement() {
-    count--
-    document.getElementById("student-cnt").innerHTML = count
+    count -= 1
+    decrimentEL.textContent = count
 }
 
 function save() {
-    let previewsCounts = " - " + count 
-    document.getElementById("save").innerText += previewsCounts
-    console.log(count)
+    let previewsCounts = " ( " +  count + " ) " 
+    SaveEL.textContent += previewsCounts
+    incrimentEL.textContent = 0
+    count = 0 
 }
