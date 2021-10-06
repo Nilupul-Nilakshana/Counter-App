@@ -1,14 +1,16 @@
 let count = 0
 function increment() {
-    count = count + 1
+    count += 1
     document.getElementById("student-cnt").innerHTML = count
 }
 
 function decrement() {
-    count = count - 1
+    count--
     document.getElementById("student-cnt").innerHTML = count
 }
 
 function save() {
+    let previewsCounts = " - " + count 
+    document.getElementById("save").innerText += previewsCounts
     console.log(count)
 }

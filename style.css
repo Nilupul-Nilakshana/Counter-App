@@ -16,12 +16,14 @@ div {
 h3 {
     color: #000000;
     font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     color: #00ff66;
     margin-top: 20px;
     font-size: 50px;
+    
 }
 
 button {
@@ -34,16 +36,12 @@ button {
         margin-top: 5px;
         margin-bottom: 5px;
         border-radius: 5px;
+        background-color: darkred;
 }
 
-#increment-btn {
-    background-color: darkred;
-}
-
-#decrement-btn {
-    background-color: darkred;
-}
-
-#save-btn {
-    background-color: darkred;
+p {
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgb(2, 0, 92);
+    font-weight: bold;
 }
