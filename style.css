@@ -45,3 +45,17 @@ p {
     color: rgb(2, 0, 92);
     font-weight: bold;
 }
+
+footer {
+    margin-top: 250px;
+}
+
+#footer-content {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
